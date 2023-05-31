@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "admin2" {
   name = "admin2-rg-2"
   location = "north europe"
 }
+
+resource "azurerm_resource_group" "admin1" {
+  name = "admin1-rg-3"
+  location = "north europe"
+}
